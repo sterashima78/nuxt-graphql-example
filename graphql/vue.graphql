@@ -1,0 +1,5 @@
+query vueRepository {
+  repository(name: "vue", owner: "vuejs"){
+    createdAt
+  }
+}
