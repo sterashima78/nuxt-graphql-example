@@ -3,3 +3,11 @@ schema:
       headers: 
         Authorization: "bearer ${GITHUB_PAT}"
 documents: graphql/**/*.graphql
+extensions:
+  codegen:
+    generates:
+      ./infrastructure/graphql/generated-client.ts:
+        plugins:
+          - typescript
+          - typescript-operations
+          - typescript-graphql-request

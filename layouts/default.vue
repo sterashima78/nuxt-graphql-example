@@ -1,10 +1,17 @@
 <template>
-  <div>
+  <div class="container">
     <Nuxt />
   </div>
 </template>
 
 <style>
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;

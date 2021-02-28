@@ -24,9 +24,14 @@
   "dependencies": {
     "@nuxtjs/composition-api": "^0.20.2",
     "core-js": "^3.8.3",
+    "graphql": "^15.5.0",
     "nuxt": "^2.15.2"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^1.21.1",
+    "@graphql-codegen/typescript": "^1.21.0",
+    "@graphql-codegen/typescript-graphql-request": "^3.0.2",
+    "@graphql-codegen/typescript-operations": "^1.17.14",
     "@nuxt/types": "^2.14.12",
     "@nuxt/typescript-build": "^2.0.4",
     "@nuxtjs/eslint-config-typescript": "^5.0.0",

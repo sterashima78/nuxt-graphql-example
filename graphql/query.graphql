@@ -1,0 +1,16 @@
+query fetchRepositories($query: String!) {
+  search(query: $query, type: REPOSITORY, first: 100) {
+    nodes {
+      ... on Repository {
+        __typename
+        name
+        issues {
+          totalCount
+        }
+        stargazers {
+          totalCount
+        }
+      }
+    }
+  }
+}
